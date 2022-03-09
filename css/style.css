@@ -1,0 +1,111 @@
+     * {
+         padding: 0;
+         margin: 0;
+     }
+     
+     body {
+         font-family: system-ui;
+         background: linear-gradient(#200016, #10001f);
+         height: 100vh;
+     }
+     
+     a {
+         text-decoration: none;
+         color: #fff;
+     }
+     
+     header {
+         position: fixed;
+         width: 90%;
+         z-index: 50;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         margin: 5px;
+     }
+     
+     header .logo {
+         font-size: 30px;
+         text-transform: uppercase;
+         margin: 100px;
+         border-radius: 35px;
+     }
+     
+     header .logo:hover {
+         background-color: #200016;
+     }
+     
+     header ul {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         list-style: none;
+     }
+     
+     header ul li {
+         margin: 30px;
+     }
+     
+     header ul li a {
+         padding: 5px 5px;
+         border-radius: 25px;
+     }
+     
+     header ul li a:hover,
+     .active {
+         background-color: #fff;
+         color: #200016;
+     }
+     
+     .main {
+         position: relative;
+         height: 100vh;
+         width: 100%;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         overflow: hidden;
+     }
+     
+     .main::after {
+         content: '';
+         position: absolute;
+         bottom: 0;
+         height: 100px;
+         width: 100%;
+         background: linear-gradient(to top, #200016, transparent);
+         overflow: hidden;
+     }
+     
+     .main img {
+         position: absolute;
+         width: 100%;
+         height: 100vh;
+         object-fit: cover:
+     }
+     
+     #moon {
+         mix-blend-mode: screen;
+         transform: translateY(80px);
+     }
+     
+     .hassan {
+         color: #fff;
+         font-size: 28px;
+         text-transform: uppercase;
+         transform: translateY(-140px);
+     }
+     
+     .content {
+         color: #fff;
+         padding: 30px;
+     }
+     
+     .content h2 {
+         margin: 20px;
+         font-size: 30px;
+     }
+     
+     .content p {
+         margin: 20px;
+     }
